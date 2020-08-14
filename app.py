@@ -12,8 +12,7 @@ app = Flask(__name__)
 CORS(app)
 
 # routes
-@app.route('/', methods=['POST'])
-
+@app.route('/preference', methods=['POST'])
 def predict():
     # get data in json from request source
     data = request.get_json(force=True)
