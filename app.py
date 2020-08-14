@@ -34,7 +34,7 @@ def predict():
 
 def get_predict():
     # get data
-    data = {'Feedback': 4, 'Cues': 5, 'Language': 3, 'P.Focus': 4} 
+    data = {'Feedback': 4, 'Cues': 5, 'Language': 3, 'PFocus': 4} 
 	# Should print Twitter
     json_data = data.copy();
 
