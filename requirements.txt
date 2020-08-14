@@ -1,0 +1,9 @@
+Flask
+Flask-SQLAlchemy
+gunicorn
+pandas
+requests
+scikit-learn
+scipy
+flask-cors
+numpy
